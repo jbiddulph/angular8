@@ -41,7 +41,7 @@ import { EmployeeService } from 'src/app/services/employee.service';
     MatIconModule,
     MatButtonModule
   ],
-  providers: [DepartmentService,EmployeeService],
+  providers: [DepartmentService, EmployeeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
